@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16a7e2ba-f22d-42a8-99e4-3091654e7322" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/auth/AuthForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/auth/AuthTemplate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PostListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PostListPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/RegisterPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/RegisterPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +93,8 @@
       <workItem from="1611555434443" duration="2166000" />
       <workItem from="1611559443065" duration="4297000" />
       <workItem from="1611578270586" duration="2085000" />
-      <workItem from="1611580512988" duration="1271000" />
+      <workItem from="1611580512988" duration="1533000" />
+      <workItem from="1611642857231" duration="10863000" />
     </task>
     <task id="LOCAL-00001" summary="컴포넌트 생성">
       <created>1611579585589</created>
@@ -96,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611581383342</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="github test2">
+      <created>1611582025129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611582025129</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +139,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="컴포넌트 생성" />
     <MESSAGE value="github test" />
-    <option name="LAST_COMMIT_MESSAGE" value="github test" />
+    <MESSAGE value="github test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="github test2" />
   </component>
 </project>
