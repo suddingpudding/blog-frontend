@@ -19,11 +19,13 @@ const Wrapper = styled(Responsive)`
   display: flex;
   align-items: center;
   justify-content: space-between; /* 자식 앨리먼트 사이의 여백을 최대로 설정 */
+
   .logo {
     font-size: 1.125rem;
     font-weight: 800;
     letter-spacing: 2px;
   }
+
   .right {
     display: flex;
     align-items: center;
@@ -37,7 +39,12 @@ const Spacer = styled.div`
   height: 4rem;
 `;
 
-const Header = () => {
+const UserInfo = styled.div`
+  font-weight: 800;
+  margin-right: 1rem;
+`;
+
+const Header = ({user}) => {
     return (
         <Fragment>
             <HeaderBlock>
@@ -45,9 +52,16 @@ const Header = () => {
                     <Link to={"/"} className={"logo"}>
                         REACTERS
                     </Link>
-                    <div className={"right"}>
-                        <Button to={"/login"}>로그인</Button>
-                    </div>
+                    {user ? (
+                        <div className={"right"}>
+                            <UserInfo>{user.username}</UserInfo>
+                            <Button>로그아웃</Button>
+                        </div>
+                    ) : (
+                        <div className={"right"}>
+                            <Button to={"/login"}>로그인</Button>
+                        </div>
+                    )}
                 </Wrapper>
             </HeaderBlock>
             <Spacer/>
