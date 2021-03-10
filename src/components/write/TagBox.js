@@ -67,8 +67,7 @@ const TagListBlock = styled.div`
 const TagItem = React.memo(({tag}) => <Tag>#{tag}</Tag>);
 
 // React.memo를 사용하여 tags 값이 바뀔 때만 리렌더링되로독 처리
-const TagList = React;
-memo(({tags}) => (
+const TagList = React.memo(({tags}) => (
     <TagListBlock>
         {tags.map(tag => (
             <TagItem key={tag} tag={tag}/>
