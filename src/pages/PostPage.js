@@ -1,7 +1,14 @@
-import React from 'react';
+import React, {Fragment} from 'react';
+import HeaderContainer from "../containers/common/HeaderContainer";
+import PostViewer from "../components/post/PostViewer";
 
 const PostPage = () => {
-    return <div>포스트 읽기</div>;
+    return (
+        <Fragment>
+            <HeaderContainer/>
+            <PostViewer/>
+        </Fragment>
+    );
 };
 
 export default PostPage;
