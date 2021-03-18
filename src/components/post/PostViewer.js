@@ -28,7 +28,7 @@ const SubInfo = styled.div`
     color: ${palette.gray[5]};
     padding-left: 0.25rem;
     padding-right: 0.25rem;
-    content: '//B7'; /* 가운뎃점 문자 */
+    content: '\\B7'; /* 가운뎃점 문자 */
   }
 `;
 const Tags = styled.div`
