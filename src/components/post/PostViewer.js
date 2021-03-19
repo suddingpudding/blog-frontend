@@ -77,11 +77,11 @@ const PostViewer = ({post, error, loading}) => {
                 </SubInfo>
                 <Tags>
                     {tags.map(tag => (
-                        <div className={tag}>#{tag}</div>
+                        <div className={"tag"}>#{tag}</div>
                     ))}
                 </Tags>
             </PostHead>
-            <PostContent dangerouslySetInnerHTML={{__html: body}}/>
+            <PostContent dangerouslySetInnerHTML={{ __html: body}}/>
         </PostViewerBlock>
     );
 };
