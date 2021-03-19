@@ -92,7 +92,7 @@ const PostItem = () => {
 
 const PostList = () => {
     return (
-        <PostItemBlock>
+        <PostListBlock>
             <WritePostButtonWrapper>
                 <Button cyan to="/write">
                     새 글 작성하기
@@ -103,7 +103,7 @@ const PostList = () => {
                 <PostItem/>
                 <PostItem/>
             </div>
-        </PostItemBlock>
+        </PostListBlock>
     );
 };
 
