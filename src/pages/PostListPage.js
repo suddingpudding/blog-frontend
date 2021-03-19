@@ -1,11 +1,12 @@
 import React, {Fragment} from 'react';
 import HeaderContainer from "../containers/common/HeaderContainer";
+import PostList from "../components/posts/PostList";
 
 const PostListPage = () => {
     return (
         <Fragment>
             <HeaderContainer/>
-            <div>안녕하세요.</div>
+            <PostList/>
         </Fragment>
     );
 };
