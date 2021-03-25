@@ -3,7 +3,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {withRouter} from 'react-router-dom'
 import {readPost, unloadPost} from "../../modules/post";
 import PostViewer from "../../components/post/PostViewer";
-import PostActionButtons from "../../components/posts/PostActionButtons";
+import PostActionButtons from "../../components/post/PostActionButtons";
 import {setOriginalPost} from "../../modules/write";
 
 const PostViewerContainer = ({match, history}) => {
